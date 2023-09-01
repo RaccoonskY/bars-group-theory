@@ -1,5 +1,4 @@
-﻿using solid_principles_practice.LCP;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +10,6 @@ namespace solid_principles_practice
     {
         static void Main(string[] args)
         {
-            LiskovDemo.Demo(args);
         }
     }
 }
