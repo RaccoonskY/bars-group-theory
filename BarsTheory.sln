@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarsTheory", "BarsTheory\BarsTheory.csproj", "{47D6D5A5-7126-4B9E-B7BD-1203EBFFBD1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "solid-principles-practice", "solid-principles-practice\solid-principles-practice.csproj", "{D9EE8AD8-0F18-4BDF-8F78-97F51E3E4CF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47D6D5A5-7126-4B9E-B7BD-1203EBFFBD1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47D6D5A5-7126-4B9E-B7BD-1203EBFFBD1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47D6D5A5-7126-4B9E-B7BD-1203EBFFBD1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47D6D5A5-7126-4B9E-B7BD-1203EBFFBD1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9EE8AD8-0F18-4BDF-8F78-97F51E3E4CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9EE8AD8-0F18-4BDF-8F78-97F51E3E4CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9EE8AD8-0F18-4BDF-8F78-97F51E3E4CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9EE8AD8-0F18-4BDF-8F78-97F51E3E4CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3965EC7-0D69-4BE6-988B-A2A089D0BB3F}
+	EndGlobalSection
+EndGlobal
