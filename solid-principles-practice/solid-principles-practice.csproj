@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LCP\LCPBadExample.cs" />
+    <Compile Include="LCP\LCPGoodExample.cs" />
+    <Compile Include="LCP\LiskovDemo.cs" />
     <Compile Include="OCP\OpenCloseBadExample.cs" />
     <Compile Include="OCP\OpenCloseGoodExample.cs" />
     <Compile Include="Program.cs" />
