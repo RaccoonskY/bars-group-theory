@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarsTheory", "BarsTheory\Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "solid-principles-practice", "solid-principles-practice\solid-principles-practice.csproj", "{D9EE8AD8-0F18-4BDF-8F78-97F51E3E4CF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "auto-documentation", "auto-documentation\auto-documentation.csproj", "{D1BA411D-5397-4799-9087-813E63FD58E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D9EE8AD8-0F18-4BDF-8F78-97F51E3E4CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9EE8AD8-0F18-4BDF-8F78-97F51E3E4CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9EE8AD8-0F18-4BDF-8F78-97F51E3E4CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1BA411D-5397-4799-9087-813E63FD58E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1BA411D-5397-4799-9087-813E63FD58E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1BA411D-5397-4799-9087-813E63FD58E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1BA411D-5397-4799-9087-813E63FD58E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
