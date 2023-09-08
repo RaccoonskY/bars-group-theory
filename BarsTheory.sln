@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "solid-principles-practice",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "auto-documentation", "auto-documentation\auto-documentation.csproj", "{D1BA411D-5397-4799-9087-813E63FD58E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "solid-principles-practice.Tests", "unit_tests_nunit_examples\solid-principles-practice.Tests.csproj", "{5BF70620-D1B4-42CB-9BD2-205142965689}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D1BA411D-5397-4799-9087-813E63FD58E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1BA411D-5397-4799-9087-813E63FD58E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1BA411D-5397-4799-9087-813E63FD58E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BF70620-D1B4-42CB-9BD2-205142965689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BF70620-D1B4-42CB-9BD2-205142965689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BF70620-D1B4-42CB-9BD2-205142965689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BF70620-D1B4-42CB-9BD2-205142965689}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

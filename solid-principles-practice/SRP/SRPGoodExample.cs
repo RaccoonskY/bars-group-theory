@@ -33,6 +33,7 @@ namespace solid_principles_practice.SRP
             public void GenerateReport(Employee em)
             {
                 // Генерация отчета по деятельности сотрудника
+
             }
         }
     }
