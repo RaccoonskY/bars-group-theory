@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace solid_principles_practice.DIP
 {
-    internal class DIPGoodExample
+    internal class DIPExampleWithInterfaces
     {
         public interface IMessenger
         {
