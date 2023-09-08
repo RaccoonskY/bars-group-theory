@@ -7,17 +7,14 @@ using static solid_principles_practice.SRP.SRPGoodExample;
 
 namespace solid_principles_practice.OCP
 {
-    internal class OpenCloseGoodExample
+    public class OpenCloseGoodExample
     {
-        public class IEmployeeReport
+        public abstract class IEmployeeReport
         {
             /// <summary>
             /// Метод для создания отчета
             /// </summary>
-            public virtual void GenerateReport(Employee em)
-            {
-                // Базовая реализация, которую нельзя модифицировать
-            }
+            public abstract void GenerateReport(Employee em);
         }
 
         public class EmployeeCSVReport : IEmployeeReport

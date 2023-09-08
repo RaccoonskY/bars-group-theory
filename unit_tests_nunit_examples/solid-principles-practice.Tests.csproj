@@ -54,6 +54,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="solid_tests\OcpGoodExample_IsShould.cs" />
     <Compile Include="solid_tests\SrpGoodExample_IsShould.cs" />
   </ItemGroup>
   <ItemGroup>
