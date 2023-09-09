@@ -44,11 +44,22 @@ $* git pull - fetch + merge (fetches from current observed remote branch (master
 $* git push <rem> <branch>
 -------------------------------------------------
 $ git tag - gives list of tags
+
 	$ git tag -a v1.4 -m "my version 1.4" - creates tag v1.4 with message (-a: add tag, -m: message for tag)
+
 	$ git tag v1.4-lw - creates lightweight tag (with no additional info except commit)
+
 	$ git tag -a v1.2 9fceb02 - creates tag for existing commit (9fceb02 - id)
+
 	$ git push origin v1.5 - sends tag to the remote repo (origin)
+
 	$ git push origin --tags - sends all tags to the repo 
+
+	$ git tag -d v1.4-lw - deletes tag (-d flag)
+
+	$ git push origin --delete <tagname> - deletes tag from remote
+
+$* git config --global alias.last 'log -1 HEAD' - creating alias for the 'log -1 HEAD' command, now we can use 'git last' instead.
 
 untracked - данные, неотслеживаемые git
 
