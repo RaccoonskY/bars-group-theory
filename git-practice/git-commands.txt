@@ -1,0 +1,79 @@
+﻿//fundamentals (local)///
+
+$* git init - создание репозитория в существующем каталоге 
+
+$* git clone <URL> <NAME> - создание локакольной копии репозитория, чтобы внести в последствии вклад в проект ($fork has no affect on original repo, but $clone has) 
+
+$* git status - текущее состояние файлов (untracked, unmodified, modified, staged)
+
+$* git add <filename> - adding file to the next commit. If file is untracked, starts tracking it. 
+
+$* git commit -m <message> - commits current staged files.
+
+	$* git commit --amend - changing last commit
+
+$ git rm <filename> (remove) - deletes file from git  
+	(--cached: deletes file from indexed ones) (rm -> git rm -> File is deleted from directory and from git index)
+
+$ git mv  - moves file (used for renaming as well)
+
+$ git log - commit history 
+	(-p: changes to commit, -stat: number files, --pretty=|short|full|fuller|oneline|format:<formating conf>: output format, -2: gives 2 last commits,
+	--since=2.weeks)
+
+$ git reset <HEAD> <filename> - removes from next commit
+
+$! git checkout -- <filename> - replace file with last commited version
+
+$! git restore (--staged) <file> - remove file from staged ones (with --staged flag) or  !!!replace it with last commited version (reset + checkout -- )
+
+$ git tag - gives list of tags
+
+	$ git tag -a v1.4 -m "my version 1.4" - creates tag v1.4 with message (-a: add tag, -m: message for tag)
+
+	$ git tag v1.4-lw - creates lightweight tag (with no additional info except commit)
+
+	$ git tag -a v1.2 9fceb02 - creates tag for existing commit (9fceb02 - id)
+
+	$ git push origin v1.5 - sends tag to the remote repo (origin)
+
+	$ git push origin --tags - sends all tags to the repo 
+
+	$ git tag -d v1.4-lw - deletes tag (-d flag)
+
+	$ git push origin --delete <tagname> - deletes tag from remote
+
+$* git config --global alias.last 'log -1 HEAD' - creating alias for the 'log -1 HEAD' command, now we can use 'git last' instead.
+-------------------------------------------------
+//fundamentals (remote)//
+
+$ git remote (-v) - gives list of configured remote repos
+
+	$* git remote add <shortname> <url> - adds remote repo 
+
+	$ git remote show <rem> - gives info about remote
+
+	$ ... rename|remove
+
+$* git fetch <rem repo name> - gets changes from remote repo to yours local
+
+$* git pull - fetch + merge (fetches from current observed remote branch (master is default))
+
+$* git push <rem> <branch>
+-------------------------------------------------
+//branches//
+
+$* git branch <branch name> - creates new branch (it will observe current commit)
+
+$* git checkout <branch name> - makes HEAD to follow <branch name> 
+
+$* git checkout -b <newbranchname> - creates and switches to the new branch 
+
+
+
+
+-------------------------------------------------
+untracked - данные, неотслеживаемые git
+
+* - fundamental, important 
+! - use with warning 
