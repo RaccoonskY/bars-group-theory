@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ﻿//fundamentals (local)///
 
 $* git init - создание репозитория в существующем каталоге 
@@ -78,6 +78,6 @@ untracked - данные, неотслеживаемые git
 
 * - fundamental, important 
 ! - use with warning 
-=======
+
 ﻿
->>>>>>> 3ddeb68ffce0962c21260f1e806662b9a0e921dd
+
