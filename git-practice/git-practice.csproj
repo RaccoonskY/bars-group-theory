@@ -7,11 +7,8 @@
     <ProjectGuid>{D0855921-1240-4337-BFC5-E12B0933723A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>git_practice</RootNamespace>
-<<<<<<< HEAD
     <AssemblyName>git-practice</AssemblyName>
-=======
     <AssemblyName>git_practice</AssemblyName>
->>>>>>> 3ddeb68ffce0962c21260f1e806662b9a0e921dd
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -39,14 +36,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-<<<<<<< HEAD
   <ItemGroup>
     <Compile Include="Class1.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="git-commands.txt" />
   </ItemGroup>
-=======
->>>>>>> 3ddeb68ffce0962c21260f1e806662b9a0e921dd
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
