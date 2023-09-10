@@ -70,8 +70,10 @@ $* git checkout <branch name> - makes HEAD to follow <branch name>
 
 $* git checkout -b <newbranchname> - creates and switches to the new branch 
 
+example: git checkout -b newfeature -> new feature is done -> add, commit -> checkout master -> merge newfeature -> fix conflicts (before ===: master, after: newfeature)
+-> add, commit -> done
 
-
+$ git branch (--merged\no-merged) - get branches
 
 -------------------------------------------------
 untracked - данные, неотслеживаемые git
