@@ -64,7 +64,7 @@ $* git push <rem> <branch>
 -------------------------------------------------
 //branches//
 
-$* git branch <branch name> - creates new branch (it will observe current commit)
+$* git branch <branch name> - creates new branch or deletes branch with -d flag (it will observe current commit)
 
 $* git checkout <branch name> - makes HEAD to follow <branch name> 
 
@@ -75,8 +75,29 @@ example: git checkout -b newfeature -> new feature is done -> add, commit -> che
 
 $ git branch (--merged\no-merged) - get branches
 
+$ git branch --move bad-branch-name corrected-branch-name - renaming local branch	
+	
+	$ git push --set-upstream origin corrected-branch-name - pushing local renamed branch to the remote
+
+	$ git push origin --delete bad-branch-name - deletes remained not renamed branch on remote
+	
+	if we want to rename master branch, we should do before deleting remote master:
+		Все проекты, которые зависят от текущего, должны будут обновить свой код и/или конфигурацию.
+		Обновите конфигурацию всех запускаемых тестов.
+		Исправьте скрипты сборки и публикации артефактов.
+		Поправьте настройки репозитория на сервере: задайте новую ветку по умолчанию, обновите правила слияния, а также прочие настройки, которые зависят от имени веток.
+		Обновите документацию, исправив ссылки, указывающие на старую ветку.
+		Слейте или отмените запросы на слияние изменений, нацеленные на старую ветку.
+
+$ git fetch origin - by default you don't get remote branch. To get it in active branch, you should use git merge (eq. git merge origin/serverfix)
+	you can create new branch based on remote pointer: git checkSout -b serverfix origin/serverfix
+
+$ git branch -vv - to see how branches are configured
+
+
 -------------------------------------------------
 untracked - данные, неотслеживаемые git
+
 
 * - fundamental, important 
 ! - use with warning 
