@@ -95,12 +95,26 @@ $ git fetch origin - by default you don't get remote branch. To get it in active
 $ git branch -vv - to see how branches are configured
 
 
+$* git rebase <basebranch> <topicbranch> - 'rebasing' topic branch on the base branch (all commits of topic branch will be ahead of base branch)
+	
+	$ git rebase --onto master server client - "switch to client and make rebase to master  but ignore changes from server branch"
+
+	!!! should avoid rebasing already on remote commits !!!
+
+	$* git pull --rebase - for rebasing after pull, if someone pushed rebased 
+
 -------------------------------------------------
-untracked - данные, неотслеживаемые git
+//command work//
 
+$ git diff --check - checking for the unnecessary whitespaces
 
+$ git merge origin/featureBee - merging featureBee branch from remo to the current branch
+
+$ git push -u origin featureB:featureBee - pushing local fB to the remo fBee branch (it's called reference specification)
+
+-------------------------------------------------
 * - fundamental, important 
 ! - use with warning 
-
+$ - git command
 ﻿
 
