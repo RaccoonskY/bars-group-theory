@@ -11,11 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "auto-documentation", "auto-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "solid-principles-practice.Tests", "unit_tests_nunit_examples\solid-principles-practice.Tests.csproj", "{5BF70620-D1B4-42CB-9BD2-205142965689}"
 EndProject
-<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "git-practice", "git-practice\git-practice.csproj", "{D0855921-1240-4337-BFC5-E12B0933723A}"
 EndProject
-=======
->>>>>>> 3ddeb68ffce0962c21260f1e806662b9a0e921dd
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ioc-di-practice", "ioc-di-practice\ioc-di-practice.csproj", "{8257F05B-76B0-4604-863E-79A6B8EAEE63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,13 +37,14 @@ Global
 		{5BF70620-D1B4-42CB-9BD2-205142965689}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BF70620-D1B4-42CB-9BD2-205142965689}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BF70620-D1B4-42CB-9BD2-205142965689}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{D0855921-1240-4337-BFC5-E12B0933723A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D0855921-1240-4337-BFC5-E12B0933723A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0855921-1240-4337-BFC5-E12B0933723A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0855921-1240-4337-BFC5-E12B0933723A}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
->>>>>>> 3ddeb68ffce0962c21260f1e806662b9a0e921dd
+		{8257F05B-76B0-4604-863E-79A6B8EAEE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8257F05B-76B0-4604-863E-79A6B8EAEE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8257F05B-76B0-4604-863E-79A6B8EAEE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8257F05B-76B0-4604-863E-79A6B8EAEE63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
