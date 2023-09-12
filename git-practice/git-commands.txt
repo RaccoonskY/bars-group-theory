@@ -112,6 +112,26 @@ $ git merge origin/featureBee - merging featureBee branch from remo to the curre
 
 $ git push -u origin featureB:featureBee - pushing local fB to the remo fBee branch (it's called reference specification)
 
+$ git cherry-pick e43a6  - cherrypicking one particular commit to the base one
+	
+To set local fork to follow remote repo:
+
+	$ git remote add progit https://github.com/progit/progit2.git (1) Добавить исходный репозиторий как удалённый и назвать его progit.
+
+	$ git fetch progit (2) 	Получить ветки репозитория progit, в частности ветку master.
+
+	$ git branch --set-upstream-to=progit/master master (3)	Настроить локальную ветку master на получение изменений из репозитория progit.
+
+	$ git config --local remote.pushDefault origin (4) Установить origin как репозиторий по умолчанию для отправки.
+
+After that it's better to use short commands (pull, push) without inserting url of remote repo
+
+
+
+
+	
+
+
 -------------------------------------------------
 * - fundamental, important 
 ! - use with warning 
